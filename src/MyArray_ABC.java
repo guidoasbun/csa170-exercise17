@@ -1,3 +1,11 @@
+/*
+ * Guido Asbun
+ * CS A170
+ * 18-October-2020
+ *
+ * Exercise 17
+ */
+
 public class MyArray_ABC {
     public static void main(String[] args) {
 //        int[] a = {10, 20, 30, 40, 50};
@@ -18,8 +26,8 @@ public class MyArray_ABC {
             sum += a[i];
         }
 
-        System.out.println("The largest element is " + maxValue);
-        System.out.println("The largest element is at index " + maxIndex);
-        System.out.println("The sum of all elements is " + sum);
+        System.out.println("The largest element is " + maxValue + ".");
+        System.out.println("The largest element is at index " + maxIndex + ".");
+        System.out.println("The sum of all elements is " + sum + ".");
     }
 }

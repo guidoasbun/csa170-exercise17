@@ -1,3 +1,11 @@
+/*
+ * Guido Asbun
+ * CS A170
+ * 18-October-2020
+ *
+ * Exercise 17
+ */
+
 public class MyArray_DE {
     public static void main(String[] args) {
 
@@ -21,9 +29,9 @@ public class MyArray_DE {
             }
         }
 
-        System.out.println("The largest element is " + maxValue);
-        System.out.println("The largest element is at index " + maxIndex);
-        System.out.println("The sum of all even elements is " + sumEven);
+        System.out.println("The largest element is " + maxValue + ".");
+        System.out.println("The largest element is at index " + maxIndex + ".");
+        System.out.println("The sum of all even elements is " + sumEven + ".");
         System.out.print("The array a in reverse order: ");
         for(int i = a.length-1; i >= 0; i--){
             System.out.print(a[i] + " ");
